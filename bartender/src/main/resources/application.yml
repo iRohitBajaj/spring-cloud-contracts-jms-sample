@@ -1,0 +1,9 @@
+server:
+  port: 8082
+
+activemq:
+  broker-url: tcp://localhost:61616
+
+destination:
+  drinkrequest: req.q
+  drinkresponse: resp.q
